@@ -1,0 +1,82 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #0B2434;
+}
+.main{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.game{
+  position: absolute;
+  min-height:70vh;
+  width: 80vw;
+  background-color: #d9dcd6;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.die--container{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+.die{
+  height: 6rem;
+  width: 6rem;
+  flex: 0 0 auto;
+  box-shadow: 0px 0.5rem 0.5rem rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  cursor: pointer;
+}
+.roll{
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+  min-height: 5rem;
+  min-width: 15rem;
+  border: none;
+  background-color: #5035ff;
+  border-radius: 1rem;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.held {
+  background-color: #59e391;
+}
+.title {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.instructions {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  text-wrap: wrap;
+  width: 60%;
+}
